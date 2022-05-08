@@ -1,0 +1,156 @@
+body {
+	background: #fff;
+}
+
+a {
+	border: 0px;
+	outline: 0px;
+}
+
+.card-header {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.bgheader {
+	background: #3CA2A2;
+}
+
+.bggaleria {
+	background: #bbb;
+}
+
+.menunav {
+	color: #ffffff !important;
+	background: #3CA2A2;
+	border: 1px solid #3CA2A2;
+	border-radius: 2px;
+}
+
+.menunav:hover {
+	color: #000 !important;
+	background: #fff;
+	border: 1px solid #fff;
+	transition: background 0.5s, color 0.5s, border 0.5s;
+}
+
+.cardshadow {
+	box-shadow: 4px 4px 4px #ccc;
+}
+
+.titulo {
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+.titulo2 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+a.agendalink {
+	color: #3CA2A2 !important;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a.agendalink:hover {
+	color: #0d6efd !important;
+}
+
+a.cursolink {
+	color: #000 !important;
+	font-size: 1.2em;
+	font-weight: normal;
+	font-family: 'Heebo', sans-serif;
+	text-decoration: none;
+}
+
+a.cursolink:hover {
+	color: #0d6efd !important;
+}
+
+li.cursolink {
+	padding: 5px;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+.profile {
+	max-width: 280px;
+}
+
+.sobre {
+	color: #3CA2A2;
+	font-size: 2em;
+	font-weight: normal;
+	font-family: 'Alegreya Sans';
+}
+
+.nome {
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+.textoapre {
+	font-size: 1.1em;
+	padding: 5px 10px;
+	color: #555;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.copyright {
+	font-size: 0.9em;
+	padding: 5px 10px;
+	color: #fff;
+	font-weight: 550;
+	line-height: 25px;	
+}
+
+.legenda {
+	color: #fff;
+	font-weight: 550;
+}
+
+a.maisfotos {
+	color: #fff !important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.maisfotos:hover {
+	color: #000 !important;
+}
+
+/*Back to top*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+	z-index: 10;
+    bottom: 20px;
+    right: 20px;
+	border-radius:2px;
+    display:none;
+	background: #3CA2A2;
+}
+
+.back-to-top:hover {
+	background: #4F5D73;
+}
+
+i.backtop {
+	color: #fff;
+	transform: rotate(0deg);
+}
+/*Back to top*/

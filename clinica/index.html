@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>Clínica Konfisio</title> 
+	<meta name="description" content="Konfisio Clínica"/>
+	<meta name="keywords" content="clínica, cursos, fisioterapia, estética, curso, acupuntura, drenagem, massagem, micropuntura, microagulhamento, ventosaterapia, pilates, aurículo, campos, goytacazes, macaé" />
+	<meta name="author" content=""/>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content="Clínica Konfisio"/>
+	<meta property="og:description" content="Fisioterapia, Acupuntura, Pilates e Estética."/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.konfisio.com/clinica" />
+	<meta property="og:image" content="http://www.konfisio.com/clinica/img/og.png" />
+	<!-- end: Facebook Open Graph -->
+	
+	<!-- start: favicon-->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="img/favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="img/favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="img/favicon/favicon-144.png">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<!-- end: Favicon-->
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/aos.css" />
+	<link rel="stylesheet" href="css/font_lobster.css"> 
+	
+    <!-- Script -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- animated scroll -->
+	<script src="js/aos.js"></script>
+	<script>
+		$(window).on('load', function () {
+		AOS.refresh();
+		});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	
+	<!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	<!--back to top-->
+	<script>
+	$(document).ready(function(){
+		$(window).scroll(function () {
+				if ($(this).scrollTop() > 50) {
+					$('#back-to-top').fadeIn();
+				} else {
+					$('#back-to-top').fadeOut();
+				}
+			});
+			// scroll body to 0px on click
+			$('#back-to-top').click(function () {
+				$('#back-to-top').tooltip('hide');
+				$('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				return false;
+			});
+			
+			$('#back-to-top').tooltip('show');
+
+	});
+	</script>
+	<script>
+		$(function() {
+			var menu = $(".menu");
+			var menubg = $(".navbar");
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+			
+				if (scroll >= 50) {
+					menu.removeClass('menu').addClass("menu-alt");
+					menu.removeClass('menubg').addClass("menubg-alt");
+				} else {
+					menu.removeClass("menu-alt").addClass('menu');
+					menu.removeClass("menubg-alt").addClass('menubg');
+				}
+			});
+		});
+	</script>
+	<!-- Popover -->
+	<script>
+		$(function () {
+			$('[data-toggle="popover"]').popover({
+			html: true,
+			trigger: "hover",
+			placement: "bottom"
+
+			})
+		})
+	</script>
+	<!-- Tooltip -->
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+	<!--.scripts-->
+	
+
+</head>
+
+<body id="top">
+
+	<!-- Modal -->
+	<div class="modal fade " id="modaldestaque" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle"><a href="ozonioterapia">Ozonioterapia</a></h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center" style="background: #fff;"> <!-- 7ccbf2 azul babee6 roxo-->
+					<div class="row justify-content-center">
+						<div class="col-12 my-auto">
+							<a href="ozonioterapia"><img class="img-fluid" src="img/ozonio/ozonioterapia.jpg" style="max-height: 600px;" /></a>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-12 my-auto">
+							<br/>
+							<p><a href="ozonioterapia">Clique aqui e saiba mais</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal OnLoad -->
+	<script>
+		$(document).ready(function () {
+		/*$('#modaldestaque').modal('show');*/
+		});
+	</script>
+	
+	<!-- Modal Preços-->
+	<div class="modal fade" id="tabelaprecos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Tabela de Preços</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<!-- ## Estética Corporal ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary">
+							<tr>
+								<th scope="col">Estética Corporal</th>
+								<th scope="col">Sessão</th>
+								<th scope="col">Pacote à vista</th>
+								<th scope="col">Pacote a prazo 2x sem juros ou até 6x juros por conta do cliente</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Carboxiterapia</th>
+								<td>R$100,00</td>
+								<td>R$900,00</td>
+								<td>R$1000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Channeling Linfático</th>
+								<td>R$180,00</td>
+								<td>R$1500,00</td>
+								<td>R$1800,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Corrente Russa</th>
+								<td>R$70,00</td>
+								<td>R$600,00</td>
+								<td>R$700,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Drenagem Linfática Manual Regional</th>
+								<td>R$90,00</td>
+								<td>R$900,00</td>
+								<td>R$1000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Drenagem Linfática Corporal Total</th>
+								<td>R$140,00</td>
+								<td>R$1300,00</td>
+								<td>R$1500,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Eletrolipólise</th>
+								<td>R$90,00</td>
+								<td>R$700,00</td>
+								<td>R$800,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Endermologia</th>
+								<td>R$70,00</td>
+								<td>R$600,00</td>
+								<td>R$650,00</td>
+							</tr>
+							<!--
+							<tr>
+								<th scope="row">Endermologia Ultra-sônica (Ultra-vac)</th>
+								<td>R$90,00</td>
+								<td>R$700,00</td>
+								<td>R$800,00</td>
+							</tr>
+							-->
+							<tr>
+								<th scope="row">Endermologia Vibratótia (Vibrocell)</th>
+								<td>R$130,00</td>
+								<td>R$900,00</td>
+								<td>R$1000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Lipocavitação</th>
+								<td>R$120,00</td>
+								<td>R$900,00</td>
+								<td>R$1000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Lipo Laser</th>
+								<td>R$140,00</td>
+								<td>R$1000,00</td>
+								<td>R$12000,00</td>
+							</tr>
+							<!--
+							<tr>
+								<th scope="row">Lipomodelagem Orgânica</th>
+								<td>R$180,00</td>
+								<td>R$1400,00</td>
+								<td>R$1600,00</td>
+							</tr>
+							-->
+							<tr>
+								<th scope="row">Massagem Detox</th>
+								<td>R$150,00</td>
+								<td>R$1200,00</td>
+								<td>R$1350,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Massagem Modeladora</th>
+								<td>R$100,00</td>
+								<td>R$800,00</td>
+								<td>R$900,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Micropuntura em Estrias</th>
+								<td>R$350,00</td>
+								<td>--------</td>
+								<td>R$400,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Ozônio</th>
+								<td>R$150,00</td>
+								<td>10 sessões R$1200,00</td>
+								<td>10 sessões R$1400,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Plataforma Vibratória</th>
+								<td>R$40,00</td>
+								<td>R$450,00</td>
+								<td>R$500,00</td>
+							</tr>	
+							<tr>
+								<th scope="row">Radio-frequência</th>
+								<td>R$100,00</td>
+								<td>R$900,00</td>
+								<td>R$1000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Terapia combinada (Vibria)</th>
+								<td>R$100,00</td>
+								<td>R$800,00</td>
+								<td>R$900,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Ultra-som</th>
+								<td>R$40,00</td>
+								<td>R$450,00</td>
+								<td>R$500,00</td>
+							</tr>	
+							<tr>
+								<th scope="row">Depilação a Laser</th>
+								<td class="text-danger">tabela abaixo</td>
+								<td class="text-danger">tabela abaixo</td>
+								<td class="text-danger">tabela abaixo</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- ## Depilação a Laser ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary text-center">
+							<tr>
+								<th scope="col" colspan="2">Masculino</th>
+								<th scope="col"></th>
+								<th scope="col" colspan="2">Feminino</th>
+							</tr>
+							<tr>
+								<th scope="col">Região</th>
+								<th scope="col">8 Sessões</th>
+								<th scope="col"></th>
+								<th scope="col">Região</th>
+								<th scope="col">8 Sessões</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Abdome</th>
+								<td>R$750,00</td>
+								<td></td>
+								<th scope="row">Ânus</th>
+								<td>R$750,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Axilas</th>
+								<td>R$450,00</td>
+								<td></td>
+								<th scope="row">Axilas </th>
+								<td>R$600,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Barba</th>
+								<td>R$900,00</td>
+								<td></td>
+								<th scope="row">Barba</th>
+								<td>R$550,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Braço</th>
+								<td>R$800,00</td>
+								<td></td>
+								<th scope="row">Buço</th>
+								<td>R$250,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Glúteo</th>
+								<td>R$600,00</td>
+								<td></td>
+								<th scope="row">Glúteo</th>
+								<td>R$400,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Costas</th>
+								<td>R$1.600,00</td>
+								<td></td>
+								<th scope="row">Coxa</th>
+								<td>R$1.500,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Coxa</th>
+								<td>R$750,00</td>
+								<td></td>
+								<th scope="row">Linha Alba</th>
+								<td>R$200,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Mão</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Mamilo</th>
+								<td>R$150,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Meia perna</th>
+								<td>R$1.750,00</td>
+								<td></td>
+								<th scope="row">Mão</th>
+								<td>R$150,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Nuca</th>
+								<td>R$450,00</td>
+								<td></td>
+								<th scope="row">Meia perna</th>
+								<td>R$1.500,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Bigode</th>
+								<td>R$450,00</td>
+								<td></td>
+								<th scope="row">Mento</th>
+								<td>R$250,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Ombro</th>
+								<td>R$350,00</td>
+								<td></td>
+								<th scope="row">Nuca</th>
+								<td>R$250,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Orelha</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Orelha</th>
+								<td>R$200,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Pé</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Pé</th>
+								<td>R$200,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Testa</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Perna Inteira</th>
+								<td>R$3.000,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Nariz</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Pescoço </th>
+								<td>R$300,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Perna Inteira</th>
+								<td>R$2.500,00</td>
+								<td></td>
+								<th scope="row">Maça do rosto</th>
+								<td>R$300,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Tórax</th>
+								<td>R$750,00</td>
+								<td></td>
+								<th scope="row">Virilha</th>
+								<td>R$700,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Costela</th>
+								<td>R$250,00</td>
+								<td></td>
+								<th scope="row">Virilha Cavada</th>
+								<td>R$900,00</td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+								<td></td>
+								<th scope="row">Virilha Completa</th>
+								<td>R$1.300,00</td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+								<td></td>
+								<th scope="row">Costas</th>
+								<td>R$750,00</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- ## Relaxamento ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary">
+							<tr>
+								<th scope="col">Terapia de Relaxamento</th>
+								<th scope="col">Sessão</th>
+								<th scope="col">Pacote à vista</th>
+								<th scope="col">Pacote a prazo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Reflexologia Podal</th>
+								<td>R$100,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Pedras Quentes</th>
+								<td>R$150,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Anti Estresse</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- ## Estética Facial ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary">
+							<tr>
+								<th scope="col">Estética Facial</th>
+								<th scope="col">Sessão</th>
+								<th scope="col">Pacote à vista</th>
+								<th scope="col">Pacote a prazo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Radio-frequência</th>
+								<td>R$90,00</td>
+								<td>R$700,00</td>
+								<td>R$800,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Microagulhamento</th>
+								<td>R$400,00</td>
+								<td></td>
+								<td>R$450,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Limpeza de Pele</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Peeling de Diamantes</th>
+								<td>R$140,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--
+							<tr>
+								<th scope="row">Peeling de Cristal</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Peeling Ultra-sônico</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Peeling Cosmético</th>
+								<td>R$100,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							-->
+						</tbody>
+					</table>					
+					<!-- ## Fisioterapêuticos ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary">
+							<tr>
+								<th scope="col">Tratamentos Fisioterapêuticos</th>
+								<th scope="col">Sessão</th>
+								<th scope="col">Pacote à vista</th>
+								<th scope="col">Pacote a prazo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Ozônio</th>
+								<td>R$150,00</td>
+								<td>10 sessões R$1200,00</td>
+								<td>10 sessões R$1400,00</td>
+							</tr>
+							<tr>
+								<th scope="row">RPG</th>
+								<td>R$150,00</td>
+								<td>R$1200,00</td>
+								<td>R$1.400,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Fisioterapia Geral</th>
+								<td>R$80,00</td>
+								<td>R$750,00</td>
+								<td>R$800,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Fisioterapia para ATM</th>
+								<td>R$80,00</td>
+								<td>R$650,00</td>
+								<td>R$700,00</td>
+							</tr>
+							<tr>
+								<th scope="row">Pilates</th>
+								<td>R$240,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Bandagem</th>
+								<td>R$60,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Barras de Access</th>
+								<td>R$250,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Terapia Floral</th>
+								<td>R$150,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Liberação Miofascial</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>				
+					<!-- ## Acupuntura ## -->
+					<table class="table table-striped table-bordered" style="font-size: 0.8em;">
+						<thead class="alert-primary">
+							<tr>
+								<th scope="col">Acupuntura</th>
+								<th scope="col">Sessão</th>
+								<th scope="col">Pacote à vista</th>
+								<th scope="col">Pacote a prazo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Auricular</th>
+								<td>R$80,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Sistêmica</th>
+								<td>R$140,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Auricular + Sistêmica</th>
+								<td>R$200,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Ventosaterapia</th>
+								<td>R$120,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<!--
+							<tr>
+								<th scope="row">Tui Ná</th>
+								<td>R$100,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">Acupuntura Estética</th>
+								<td>R$180,00</td>
+								<td></td>
+								<td></td>
+							</tr>
+							-->
+						</tbody>
+					</table>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- animated on scroll -->
+	<script>
+		AOS.init({
+			easing: 'ease',
+			offset: 100,
+			delay: 200,
+			duration: 1000,
+			once: false
+		});
+	</script>
+
+	<!-- voltar ao topo -->
+	<a id="back-to-top" href="#" class="back-to-top">
+		<i class="fas fa-arrow-up backtop"></i>
+	</a>
+	<!-- ./ voltar ao topo -->
+
+	<header>
+	
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top menu" data-aos="flip-up">
+			<a class="navbar-brand page-scroll" href="#top">
+				<img src="img/logo_t_mini.png" class= "img-fluid mx-auto d-block home" style="max-height: 40px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link active page-scroll" href="#sobre">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active page-scroll" href="#karinabarcelos">Dra. Karina Barcelos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Tratamentos
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item page-scroll" href="#esteticacorporal">Estética Corporal</a>
+							<a class="dropdown-item page-scroll" href="#esteticafacial">Estética Facial</a>
+							<a class="dropdown-item page-scroll" href="#relaxamento">Relaxamento</a>
+							<a class="dropdown-item page-scroll" href="#fisioterapeuticos">Fisiotêrapeuticos</a>
+							<a class="dropdown-item page-scroll" href="#acupuntura">Acupuntura</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#" data-toggle="modal" data-target="#tabelaprecos">Preços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="http://www.konfisio.com" target="_blank">Cursos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://www.instagram.com/konfisioka" target="_blank"><i class="fab fa-instagram" style="font-size: 1.6em;"></i> @konfisioka</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="https://www.instagram.com/dietachinesa_konfisio" target="_blank"><i class="fab fa-instagram" style="font-size: 1.6em;"></i> @dietachinesa_konfisio</a>
+					</li>																				
+				</ul>
+			</div>
+		</nav>
+
+	</header>
+
+	<main role="main" style="overflow: hidden !important;">
+		
+		<div class="row no-gutters d-sm-block d-md-none" style="margin-top: -30px;">
+			<div class="col-12 text-center">
+				<nav id="menu">
+					<ul>
+						<li><a class="page-scroll" href="#corpoclinico">Corpo Clínico</a></li>
+						<li><a class="page-scroll" href="#tratamentos">Tratamentos</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#tabelaprecos">Preços</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="container" data-aos="fade-up">
+			<img src="img/logo_t_horizontal_novo.png" class= "img-fluid mx-auto d-block" style="max-height: 200px; margin-top: 70px; margin-bottom: 60px;">
+		</div>
+
+		<!-- ### Sobre### -->
+		<div id="sobre" class="container-fluid marketing">
+			<div class="container">
+				<div class="row justify-content-center" data-aos="fade-up">
+					<div class="col-12 text-left my-auto">
+						<span class="featurette-heading text-muted" style="font-size: 1.9em; font-family: 'Lobster', cursive;">Sobre <span style="color: #900d1f;">&raquo;</span></span>
+						<p class="text-justify">O Espaço de Saúde Konfisio cuida de você há 21 anos. Estrutura ampla, aparelhos modernos, e atendimento individualizado após avaliação detalhada.</p>
+						<a href="https://api.whatsapp.com/send?phone=5522999061385" class="btn btn-success"><i class="fab fa-whatsapp" style="font-size: 1.3em;"></i> Chamar no WhatsApp</a>
+					</div>
+				</div>
+				<br/>
+				<div class="row justify-content-center" data-aos="flip-down">
+					<div class="col-lg-4">
+						<img class="img-fluid fotoperfil" src="img/foto1.jpg" alt="">
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img class="img-fluid fotoperfil" src="img/foto2.jpg" alt="">
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img class="img-fluid fotoperfil" src="img/foto3.jpg" alt="">
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div>
+			<br/><br/>
+		</div>		
+
+		<!-- ## Corpo Clínico ## -->
+		<div id="karinabarcelos" class="container-fluid marketing">
+			<div class="container">
+				<div class="row justify-content-center" data-aos="fade-up">
+					<div class="col-12 text-left my-auto">
+						<!-- <i class="fas fa-users text-muted" style="font-size: 1.6em;"></i> -->
+						<span class="featurette-heading text-muted" style="font-size: 1.9em; font-family: 'Lobster', cursive;">Drª Karina Barcelos <span style="color: #900d1f;">&raquo;</span></span>
+					</div>
+				</div>
+				<br/>
+				<div class="row justify-content-center" data-aos="flip-down">
+					<div class="col-lg-3">
+						<img class="img-fluid img-thumbnail" src="img/perfil/profile.webp" alt="Karina">
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-5">
+						<p>
+							Karina Barcelos é fisioterapeuta e nutricionista. Atua há 21 anos em Campos dos Goytacazes e busca sempre atualizações para atender de forma científica e com seguranças seus pacientes. Buscando sempre se aprimorar , a mesma possui inúmeras pós graduações. Karina é pós graduada em: Acupuntura; Recursos Terapêuticos Manuais; Fisioterapia Dermato-funcional; Dietoterapia Chinesa e em andamento Fitoterapia Clínica. Todo esse conhecimento é revertido em tratamentos seguros e de alta qualidade.<br/><br/> Para conhecer mais a respeito da formação da Dra. Karina, acesse o currículo lattes no link abaixo:
+						</p>
+						<p><a class="btn btn-outline-danger" href="http://lattes.cnpq.br/0966239944268512" role="button" target="_blank"><i class="fas fa-file-alt"></i> Currículo &raquo;</a></p>
+						<br/><br/>
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div>
+		</div>
+		
+		<div class="antiestresse"></div>
+
+		<!-- ## Estética Corporal ## -->
+		<div id="tratamentos" class="container-fluid marketing">
+
+			<hr id="esteticacorporal" class="featurette-divider" data-aos="slide-left">
+
+			<div class="page-scroll row featurette justify-content-center" data-aos="slide-right">
+				<div class="col-md-6 my-auto">
+					<h2 class="featurette-heading">Tratamentos <span style="color: #900d1f;">&raquo;</span> <span class="text-muted">Estética Corporal</span></h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="lead">
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>
+											<a tabindex="0" class="descricao" data-toggle="popover" 
+											title="<center><b>Drenagem Linfática Manual</b></center>" 
+											data-content="<div class='row text-justify justify-content-center'>
+											<div class='col-12 col-md-4 my-auto'>
+											<img class='img-fluid d-block mx-auto img-thumbnail' src='img/bg/tratamentos/mini/dlm_mini.jpg'>
+											</div>
+											<div class='col-12 col-md-8 my-auto'>É uma técnica de terapia corporal e facial, que auxilia, otimiza e facilita a circulação linfática, com isso os acúmulos líquidos e toxinas são eliminados baseados na normalização circulatória. Excelente para melhorar a imunidade e acelerar a absorção de medicamentos e suplementos. Primeira linha de tratamento em casos de celulite por  atuar na causa do problema. Garante uma aparência mais saudável e um corpo sequinho.
+											</div>
+											</div>">Drenagem Linfática Manual <span class="text-muted" style="font-size: 0.8em;">&raquo; leia mais</span></a>
+										</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Massagem Modeladora</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Enzimas Injetáveis</b>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<a tabindex="0" class="descricao" data-toggle="popover" 
+										title="<center><b>Channeling Linfático</b></center>" 
+										data-content="<div class='row text-justify justify-content-center'>
+										<div class='col-12 col-md-4 my-auto'>
+										<img class='img-fluid d-block mx-auto img-thumbnail' src='img/bg/tratamentos/mini/channeling-linfatico.jpg'>
+										</div>
+										<div class='col-12 col-md-8 my-auto'>
+											A queridinha da Konfisio! Mas o que faz dela esse sucesso entre pacientes e alunos ?
+											Massagem com passos idealizados por mim que tem bases na medicina tradicional chinesa, ou seja , equilíbrio.
+											A massagem é realmente metabólica , o paciente gradativamente elimina peso pela regulação do baço. Não é surpresa os resultados de menos 8, 6 Kgs ao fim de um ciclo. Por sessão é possível eliminar até 1,200 de edema, ou seja de recanalização linfática .
+											Por toda sua história e função é campeã de vendas na Konfisio. 
+											Faz sucesso entre os alunos , temos vários que hoje mantém uma clientela sólida após inseriram ele no seu portfólio de trabalho.
+											Realizada uma vez por semana , o sucesso é garantido e na Konfisio o atendimento é exclusivo comigo .
+											Temos clientes fiéis da técnica.
+											<br/><br/>Se interessou para tratamento ou curso? Me procure.	
+										</div>
+										</div>"><b>Channeling Linfático <span class="text-muted" style="font-size: 0.8em;">&raquo; leia mais</span></b></a>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Lipocavitação</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Terapia combinada (Vibria)</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<a tabindex="0" class="descricao" data-toggle="popover" 
+										title="<center><b>Enzimas Pressurizadas</b></center>" 
+										data-content="<div class='row text-justify justify-content-center'>
+										<div class='col-12 col-md-4 my-auto'>
+										<img class='img-fluid d-block mx-auto img-thumbnail' src='img/bg/tratamentos/mini/lipolaser.jpg'>
+										</div>
+										<div class='col-12 col-md-8 my-auto'>
+											Ouço muito a pergunta : “ você faz enzimas ?”. “ É com agulha?”
+											Vamos organizar as idéias ?
+											Sim , podemos usar agulhas ou pressurizar.
+											A intradermo pressurizada como é chamada injeta por micropressão na pele ativos que vão deixar as células adiposas instáveis após um processo controlado de inflação e com isso as mesmas começam a ser eliminadas. O mesmo ocorre na indicação de celulite e flacidez . Após avaliação , escolhemos o melhor produto e realizamos as sessões que são semanais. Estabelecemos 5 sessões a princípio porém podemos precisar de mais dependendo de cada caso.
+										</div>
+										</div>"><b>Enzimas Pressurizadas <span class="text-muted" style="font-size: 0.8em;">&raquo; leia mais</span></b></a>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<a tabindex="0" class="descricao" data-toggle="popover" 
+										title="<center><b>Diástase Zero</b></center>" 
+										data-content="<div class='row text-justify justify-content-center'>
+										<div class='col-12 col-md-4 my-auto'>
+										<img class='img-fluid d-block mx-auto img-thumbnail' src='img/bg/tratamentos/mini/lipolaser.jpg'>
+										</div>
+										<div class='col-12 col-md-8 my-auto'>
+											Será que tudo é gordura?
+											<br/>
+											Não não, pode ser diástase.  E não precisa ter sobrepeso para apresentar o quadro.
+											<br/>
+											Quando ocorre a separação da musculatura abdominal por vários fatores como obesidade, gestações , problemas intestinais , exercícios mal executados, o abdome fica distendido, dando a falsa impressão de gordura e flacidez. Não é incomum ter gordura também mas o problema é bem mais complexo.
+											O tratamento engloba exercícios , tratamento das fáscias, aparelhos para tratar a pele e muita garra e determinação .
+											Sou habilitada em Diástase zero e te aguardo para resultados impressionantes como esse.
+										</div>
+										</div>"><b>Diástase Zero <span class="text-muted" style="font-size: 0.8em;">&raquo; leia mais</span></b></a>
+									</li>
+								</ul>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p class="lead">
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Carboxiterapia</b>
+									</li>									
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Vibrocell</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Hidrolipoclasia Ultrassônica</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Radio-frequência</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Camuflagem em Estrias</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Oônioterapia na Estética</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Corrente russa</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<b>Massagem detox</b>
+									</li>
+									<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+										<a tabindex="0" class="descricao" data-toggle="popover" 
+										title="<center><b>Lipolaser</b></center>" 
+										data-content="<div class='row text-justify justify-content-center'>
+										<div class='col-12 col-md-4 my-auto'>
+										<img class='img-fluid d-block mx-auto img-thumbnail' src='img/bg/tratamentos/mini/lipolaser.jpg'>
+										</div>
+										<div class='col-12 col-md-8 my-auto'>
+											O Lipolaser é um diodo que gera aquecimento e promove eliminação da gordura localizada e atua na flacidez de pele e promove contorno corporal.
+											Ao ser aplicado, a camada superficial é atingida e com o aquecimento tecidos profundos são atingidos  , ou seja , gordura localizada.
+											Após a aplicação  o corpo inicia um processo inflamatório que promove a eliminação da gordura localizada e retração da pele.
+											O consumo ideal de água , alimentação saudável e atividade física são pilates importantes para os melhores resultados.
+											Os resultados são observados já na primeira sessão.
+											Ficou interessado ? 
+											<br/><br/>Me procure e vamos conversar.	👉 999061385	
+										</div>
+										</div>"><b>Lipolaser <span class="text-muted" style="font-size: 0.8em;">&raquo; leia mais</span></b></a>
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-auto">
+					<img class="img-fluid mx-auto d-block" src="img/corporal.png" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+			<br/><br/>
+			
+		</div>
+		
+		<!--<div class="pilates"></div>-->
+		
+		<div id="section1" class="container-fluid marketing">
+			<svg width="100%" height="100%" viewBox="0 0 100 102" preserveAspectRatio="none">
+			<path d="M0 0 L50 90 L100 0 V100 H0"/>
+			</svg>
+			
+			<!-- ## Estética Facial ## -->
+			<hr id="esteticafacial" class="featurette-divider" data-aos="slide-right">
+			
+			<div class="row featurette justify-content-center" data-aos="slide-left">
+				<div class="col-md-6 order-md-2 my-auto">
+					<h2 class="featurette-heading">Tratamentos <span style="color: #900d1f;">&raquo;</span> <span class="text-muted">Estética Facial</span></h2>
+					<p class="lead">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Radio-frequência</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Microagulhamento</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Limpeza de Pele</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Peeling de Diamantes</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Peeling Ultra-sônico</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Led Terapia</b>
+							</li>							
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-6 order-md-1 my-auto">
+					<img class="img-fluid mx-auto d-block" src="img/facial.png" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid marketing" style="">
+			
+			<!-- ## Relaxamento ##-->
+			<hr id="relaxamento" class="featurette-divider" data-aos="slide-left">
+
+			<div class="row featurette justify-content-center" data-aos="slide-right">
+				<div class="col-md-6 my-auto">
+					<h2 class="featurette-heading">Tratamentos <span style="color: #900d1f;">&raquo;</span> <span class="text-muted">Relaxamento</span></h2>
+					<p class="lead">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Reflexologia Podal</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Pedras Quentes</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Anti Estresse</b>
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-6 my-auto">
+					<img class="img-fluid mx-auto d-block" src="img/relax.png" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+			
+		</div>
+		
+		<div  class="container-fluid marketing asymmetric">		
+			<!-- ## Fisioterapêuticos ##-->
+			<hr id="fisioterapeuticos" class="featurette-divider" data-aos="slide-right">
+			
+			<div class="row featurette justify-content-center" data-aos="slide-left">
+				<div class="col-md-6 order-md-2 my-auto">
+					<h2 class="featurette-heading">Tratamentos <span style="color: #900d1f;">&raquo;</span> <span class="text-muted">Fisioterapêuticos</span></h2>
+					<p class="lead">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>RPG</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Fisioterapia Geral</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Fisioterapia para ATM</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Barras de Access</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Liberação Miofascial</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Bandagem Neuro Muscular</b>
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-6 order-md-1 my-auto">
+					<img class="img-fluid mx-auto d-block" src="img/fisio.png" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+		</div>
+		
+		<div  class="container-fluid marketing">			
+			<!-- ## Acupuntura ##-->
+			<hr id="acupuntura" class="featurette-divider" data-aos="slide-left">
+
+			<div class="row featurette justify-content-center" data-aos="slide-right">
+				<div class="col-md-6 my-auto">
+					<h2 class="featurette-heading">Tratamentos <span style="color: #900d1f;">&raquo;</span> <span class="text-muted">Acupuntura</span></h2>
+					<p class="lead">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Auricular</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Sistêmica</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Auricular + Sistêmica</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Ventosaterapia</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Acupuntura Estética</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Stiper</b>
+							</li>
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<b>Cone Hindu</b>
+							</li>							
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-6 my-auto">
+					<img class="img-fluid mx-auto d-block img-thumbnail" src="img/acupuntura.jpg" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+
+			<hr class="featurette-divider" data-aos="fade-down">
+
+			<!-- /END THE FEATURETTES -->
+
+		</div><!-- /.container -->
+
+		<div  class="container-fluid marketing">			
+			<!-- ## Acupuntura ##-->
+			<hr id="acupuntura" class="featurette-divider" data-aos="slide-left">
+
+			<div class="row featurette justify-content-center" data-aos="slide-right">
+				<div class="col-md-6 my-auto">
+					<h2 class="featurette-heading">Piercing <span style="color: #900d1f;">&raquo;</span> </h2>
+					<p class="lead">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="border-top: none; border-color: #1C496E; background-color: transparent;">
+								<a href="https://api.whatsapp.com/send?phone=5522999061385" class="btn btn-success"><i class="fab fa-whatsapp" style="font-size: 1.3em;"></i> Chamar no WhatsApp</a>
+							</li>							
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-6 my-auto">
+					<img class="img-fluid mx-auto d-block img-thumbnail" src="img/piercing.jpg" alt="" style="max-height: 400px;">
+				</div>
+			</div>
+
+			<hr class="featurette-divider" data-aos="fade-down">
+
+			<!-- /END THE FEATURETTES -->
+
+		</div>
+		
+		<!-- FOOTER -->
+		<footer class="container-fluid text-center text-muted">
+			<div class="row">
+				<div class="col-12 mr-auto">
+					<a href="https://www.facebook.com/profile.php?id=100001440577835" target="_blank" style="text-decoration: none !important;">
+						<img class="img-fluid mx-auto imgsocial" src="img/facebook.png" alt="Facebook">
+					</a>
+					<a href="https://www.instagram.com/konfisioka/" target="_blank" style="text-decoration: none !important;">
+						<img class="img-fluid mx-auto imgsocial" src="img/instagram.png" alt="Instagram">
+					</a>
+				</div>				
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-12">
+					<p>
+						<i class="far fa-clock copyright"></i>&nbsp;Segunda a Sexta das 08h às 12h / 13h às 17h
+						<br/>
+						<i class="fas fa-map-marker-alt copyright"></i>&nbsp;Av. Gilberto Cardoso, 44 - Turf Club, Campos dos Goytacazes - RJ
+						<br/>
+						<i class="fab fa-whatsapp copyright"></i>&nbsp;(22) 999061385 / 999056004 &middot; <i class="fas fa-phone copyright"></i>&nbsp;(22) 2735-2363
+						<br/>
+						<i class="fas fas fa-envelope copyright"></i>&nbsp;clinica@konfisio.com
+						<br/>
+					</p>
+					<p>
+						&copy; Clínica Konfisio &middot; Todos os direitos reservados
+					</p>
+				</div>
+			</div>
+		</footer>
+	</main>
+
+</body>
+</html>

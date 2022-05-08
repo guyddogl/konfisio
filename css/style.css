@@ -1,0 +1,303 @@
+body {
+	padding-right: 0 !important;
+	background: #F8FBFA;
+}
+
+a {
+	border: 0px;
+	outline: 0px;
+}
+
+.container-fluid {
+   padding: 0px !important;
+}
+
+/*Back to top*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+	z-index: 10;
+    bottom: 20px;
+    right: 20px;
+	border-radius:20px;
+    display:none;
+	background: #4F5D73;
+}
+
+i.backtop {
+	color: #fff;
+	transform: rotate(0deg);
+}
+
+i.backtop:hover {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    -ms-transform: rotate(360deg); 
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*Back to top*/
+
+
+.logoprincipal {
+	max-height: 180px;
+	padding: 10px;
+}
+
+.localcurso {
+    font-weight: normal;
+    color: black;
+}
+header {
+	background: #ffffff;
+}
+
+.bgheader {
+	background: #3CA2A2;
+}
+
+.bggaleria {
+	background: #3CA2A2;
+}
+
+.fotos {
+	box-shadow: 2px 2px 5px 0px #000;
+}
+
+.fotos2 {
+	box-shadow: 2px 2px 5px 0px #000;
+	max-height: 120px;
+}
+
+.profile {
+	max-width: 200px;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+.sobre {
+	color: red;
+	font-size: 1.2em;
+	font-weight: normal;
+	font-family: 'Alegreya Sans';
+}
+
+.nome {
+	color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+.titulo {
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+.titulo2 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alegreya Sans';
+}
+
+.contato {
+	background: #F3F6F5;
+	box-shadow: 3px 3px 5px 1px #888888;
+	border-radius: 10px;
+	max-width: 330px;
+}
+
+.textoapre {
+	background: #eee;
+	font-size: 1.1em;
+	padding: 5px 10px;
+	color: #555;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+	line-height: 25px;	
+}
+
+.textocont {
+	font-size: 1em;
+	padding: 5px 10px;
+	color: #555;
+	font-weight: 400;
+	line-height: 25px;	
+}
+
+.copyright {
+	font-size: 0.9em;
+	padding: 5px 10px;
+	color: #fff;
+	font-weight: 550;
+	line-height: 25px;	
+}
+
+.legenda {
+	color: #fff;
+	font-weight: 550;
+}
+
+.titcursos {
+	background: #eee;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	color: #555;
+	font-family: 'Alegreya Sans';
+	font-weight: 600;
+	line-height: 25px;
+}
+
+.descursos {
+	font-size: 0.9em;
+	padding: 5px 10px;
+	color: #555;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+	line-height: 25px;
+}
+
+a.maisfotos {
+	color: #fff !important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.maisfotos:hover {
+	color: #000 !important;
+}
+
+a.cursolink {
+	color: #3CA2A2 !important;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+a.poslink {
+	color: #3CA2A2 !important;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+a.agendalink {
+	color: #3CA2A2 !important;
+	font-size: 1em;
+	font-weight: bold;
+}
+/*Menu*/
+
+@media(max-width:767px) {
+	span.menulink {
+		font-size: 0.8em !important;
+	}
+
+	i.menuicon {
+		font-size:15px !important;
+	}
+	.navbar {
+		height: 50px;
+	}
+	.mtop {
+		margin-top: -30px !important; 
+	}
+}
+
+span.menulink {
+    color: white;
+	font-family: 'Alegreya Sans';
+	font-size: 1.3em;
+	font-weight: 600;	
+	text-shadow: 1px 1px 2px #000;
+}
+
+span.menulink:hover {
+	text-decoration: underline;
+}
+
+ul.menu{
+    list-style-type: none;
+	border: 0px solid #000;
+}
+
+li.menu {
+    float: left;
+	padding: 5px 8px;
+}
+
+li.menu a {
+    color: white;
+	font-family: 'Alegreya Sans';
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+/*
+li.menu a {
+    color: white;
+	font-family: 'Alegreya Sans';
+	font-size: 1.0em;
+	font-weight: 600;
+}
+*/
+
+li.menu a:hover {
+	text-decoration: underline;
+}
+
+/*
+i.menuicon {
+	font-size:18px;
+	color:#4F5D73;
+}
+*/
+
+i.menuicon {
+	font-size:30px;
+	color:#4F5D73;
+}
+/*Menu*/
+
+/*Submenu*/
+ul.submenu{
+    list-style-type: none;
+	border: 0px solid #000;
+}
+
+li.submenu {
+    float: left;
+	padding: 5px 5px;
+}
+
+li.submenu a {
+    color: white;
+	font-family: 'Alegreya Sans';
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+li.submenu a:hover {
+	text-decoration: underline;
+}
+
+i.submenuicon {
+	font-size:16px;
+	color:#4F5D73;
+}
+/*Submenu*/
+
+/*Curso Online*/
+.cardcursoonline {
+	box-shadow: 2px 2px 5px 0px #bbb;
+}
+.cardcursoonline:hover {
+	box-shadow: 2px 2px 5px 0px #000;
+	cursor: pointer;
+}

@@ -1,0 +1,109 @@
+body {
+	padding-right: 0 !important;
+}
+/*Menu*/
+a.sysmenu {
+	color: #4F5D73 !important;
+	/*font-weight: bold;*/
+	border-bottom: 2px #3CA2A2 solid;
+}
+
+a.sysmenu:hover {
+	border-bottom: 2px #fff solid;
+	color: #000 !important;
+}
+
+
+i.sysmenuicon {
+	font-size:18px;
+	color: #fff;
+	text-shadow: 1px 1px #4F5D73;
+}
+/*Menu*/
+
+i.logoff {
+	color: red;
+	opacity: 0.2;
+}
+
+i.logoff:hover {
+	opacity: 1;
+}
+
+.localpage {
+	font-size: 0.8em;
+	color: #4F5D73;
+	background: #eee;
+	padding: 5px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 1px 0px #4F5D73;
+}
+
+i.modalbutton {
+	text-shadow: 1px 1px #4F5D73;
+}
+
+a.modalbutton {
+	text-decoration: none !important;
+}
+
+.print {
+	cursor: pointer;
+}
+
+.print:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 1px 1px #4F5D73;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+
+.imprimir {
+	font-size: 1.2em;
+	color: #000;	
+	line-height: 50px;
+}
+
+/*Blink*/
+.css_blink {
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 1ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 1ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: blinker;
+	animation-duration: 1000ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+/*.blink*/

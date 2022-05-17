@@ -141,14 +141,14 @@
 						//Conexão com o BD
 						$PDO = db_connect();
 						//Consulta os cursos
-						$sql = "SELECT nomedocurso, idcurso FROM agendacursossite ORDER BY nomedocurso;";//Consulta SQL
+						$sql = "SELECT nome, idcurso FROM gradedecursos ORDER BY nome;";//Consulta SQL
 						$select = $PDO->query($sql);//Array com o resultado da consulta
 						$result = $select->fetchALL(PDO::FETCH_ASSOC);//Array com o resultado da consulta
 						$count = count($result);
 						foreach($result as $row) {
 							$idcurso = $row['idcurso'];
-							$nomedocurso = $row['nomedocurso'];
-							echo "<li><a href='https://konfisio.com/cursos/info?idcurso=".$idcurso."' class='agendalink'>".$nomedocurso."</a></li>";
+							$nome = $row['nome'];
+							echo "<li><a href='https://konfisio.com/cursos/info?idcurso=".$idcurso."' class='agendalink'>".$nome."</a></li>";
 						}
 						?>
 					</ul>
